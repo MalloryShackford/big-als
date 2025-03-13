@@ -21,12 +21,29 @@ const Home = () => {
       />
     <div className="contact-container">
       <p className="p-contact">
-        tel:  
       <span className="span-tel">
         <a href="tel:+9786676674">
            978-667-6674    
         </a>
       </span>
+      </p>
+       <p className="p-address">
+         <a
+          href="https://maps.app.goo.gl/L2viXbQs36WmTDqL6"
+          className="no-underline"
+          target="_blank"
+          rel="noopener noreferrer">
+        240 Nashua Rd
+         </a>
+      </p>
+      <p className="p-address">
+        <a
+          href="https://maps.app.goo.gl/L2viXbQs36WmTDqL6"
+          className="no-underline"
+          target="_blank"
+          rel="noopener noreferrer">
+        Billerica, MA 01862
+        </a>
       </p>
     </div>
   </div>

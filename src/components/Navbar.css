@@ -1,7 +1,12 @@
 .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	position: relative;
 	font-family: "Solway", serif;
-	color: navy;
-	padding: 1rem;
+	color: black;
+	padding: 0.5rem;
 	text-align: center;
 }
 
@@ -24,4 +29,46 @@
 .navbar ul li a:hover {
 	text-decoration: underline;
 	text-underline-offset: 0.5rem;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	background: white;
+	gap: 1.5rem;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.menu-icon {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+/* Responsive Menu */
+@media (max-width: 768px) {
+	.menu-icon {
+		display: block;
+	}
+
+	.nav-links {
+		position: absolute;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		display: none;
+	}
+
+	.nav-links.open {
+		display: flex;
+		padding: 1rem 0;
+	}
 }

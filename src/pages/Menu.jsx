@@ -34,8 +34,7 @@ const Menu = () => {
             >
           </a>
      <div className="contact-container">
-      <p className="p-contact">
-        tel:  
+      <p className="p-contact"> 
       <span className="span-tel">
         <a href="tel:+9786676674">
            978-667-6674    
