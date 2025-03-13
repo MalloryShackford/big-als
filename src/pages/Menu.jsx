@@ -1,10 +1,12 @@
 import React from "react";
+import menu from "../assets/menu.pdf"
 import "./menu.css";
 const Menu = () => {
   return (
     <div className="menu-container">
       <h1 className="h1-menu">Our Menu</h1>
       <p className="p-menu">Delicious handcrafted pizzas made with fresh ingredients.</p>
+      <iframe src={menu} title="menu" alt="menu" style={{ border: "none" }} width="100%" height="600px"></iframe>
       <div className="iframe-container">
           <iframe 
             loading="lazy" 
