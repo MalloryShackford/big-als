@@ -5,7 +5,8 @@
 	text-align: center;
 }
 
-.p-contact {
+.p-contact,
+.p-address {
 	font-family: "Roboto", sans-serif;
 	text-align: center;
 }
