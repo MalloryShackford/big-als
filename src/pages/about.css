@@ -1,0 +1,11 @@
+.about-container {
+	padding: 0 2.5rem 0 2.5rem;
+}
+.h1-about {
+	text-align: center;
+}
+
+.p-about {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}

@@ -1,0 +1,35 @@
+.contact-container {
+	padding: 0 2.5rem 0 2.5rem;
+}
+.h1-contact {
+	text-align: center;
+}
+
+.p-contact {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+.no-underline {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin-right: 0.2rem;
+	margin-left: 0.2rem;
+}
+.no-underline:hover {
+	text-decoration: underline;
+}
+.map-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.span-tel a {
+	margin-left: 0.5rem;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}

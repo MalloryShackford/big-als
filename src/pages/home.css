@@ -1,0 +1,22 @@
+h1 {
+	font-family: "Solway", serif;
+}
+
+.h1-home {
+	text-align: center;
+}
+.home-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.img-logo {
+	width: 60%;
+	height: auto;
+}
+.p-home {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
