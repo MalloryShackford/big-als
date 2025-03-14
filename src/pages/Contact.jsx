@@ -22,10 +22,10 @@ const Contact = () => {
         Hours:
       </p>
       <p className="p-contact">
-        Wednesday-Saturday: 12PM-8PM
+        Thursday-Saturday: 2PM - until we run out
       </p>
       <p className="p-contact">
-        Sunday-Tuesday: Closed
+        Sunday-Wednesday: Closed
       </p>
       <div className="map-container">
         <iframe
