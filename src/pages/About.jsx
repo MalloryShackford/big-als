@@ -1,4 +1,5 @@
 import React from "react";
+import miniLogo from '../assets/miniLogo.png';
 import "./about.css";
 
 const About = () => {
@@ -16,6 +17,11 @@ const About = () => {
         <p className="p-about">We can’t wait to welcome you in and share our love of pizza with you!
         </p>
       </div>
+     <div className="mini-logo-container">
+      <a href="/">
+        <img src={miniLogo} alt="miniLogo" width="100px"/>
+      </a>
+     </div>
     </div>
   );
 };

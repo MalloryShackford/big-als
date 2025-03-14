@@ -40,3 +40,10 @@
 	color: black;
 	font-weight: bold;
 }
+
+.mini-logo-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import miniLogo from '../assets/miniLogo.png'
 import "./contact.css";
 const Contact = () => {
   return (
@@ -22,10 +23,10 @@ const Contact = () => {
         Hours:
       </p>
       <p className="p-contact">
-        Thursday-Saturday: 2PM - until we run out
+        Thursday - Saturday: 2PM - until we run out
       </p>
       <p className="p-contact">
-        Sunday-Wednesday: Closed
+        Sunday - Wednesday: Closed
       </p>
       <div className="map-container">
         <iframe
@@ -65,6 +66,11 @@ const Contact = () => {
         </a>
       </p>
       </p>
+        <div className="mini-logo-container">
+          <a href="/">
+            <img src={miniLogo} alt="miniLogo" width="100px"/>
+           </a>
+      </div>
     </div>
     </div>
   );
