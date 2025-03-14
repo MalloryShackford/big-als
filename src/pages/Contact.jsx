@@ -3,7 +3,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <h1 className="h1-contact">Contact Us</h1>
+      <h1 className="h1-contact">Hours & Info</h1>
       <p className="p-contact">
         <a
           href="https://maps.app.goo.gl/L2viXbQs36WmTDqL6"
@@ -14,6 +14,9 @@ const Contact = () => {
         or
         <a href="tel:+9786676674" className="no-underline">call us</a>
         for a delicious pizza experience!
+      </p>
+      <p className="p-contact">
+        As a family funded and run business, we only have the time and resources to keep our efforts focused on providing high quality food and service. Things like social media and credit card payments may come in the future. For now, please <a href="tel:+9786676674" className="a-tel">order here</a> and bring cash!
       </p>
       <p className="p-contact">
         Hours:

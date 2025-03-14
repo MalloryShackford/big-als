@@ -20,7 +20,7 @@ const Navbar = () => {
         <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
         <li><Link to="/menu" onClick={toggleMenu}>Menu</Link></li>
         <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
-        <li><a href="tel:+9786676674">Call Now!</a></li>
+        <li><a href="tel:+9786676674">Call Now! 978-667-6674</a></li>
       </ul>
     </nav>
   );
