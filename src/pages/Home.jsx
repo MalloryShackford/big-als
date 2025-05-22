@@ -1,7 +1,6 @@
 import React from "react";
 import './home.css';
-import pizza from '../assets/pizza.png';
-import logo from '../assets/3.png';
+import logo from '../assets/bigAlsLogo.png';
 
 const Home = () => {
   return (
@@ -12,13 +11,16 @@ const Home = () => {
         alt="Big Al's Pizza Logo"
         width={150}
         height={150} />
-      <p className="p-home">Your go-to spot for the best pizza in town!</p>
-      <img
-        src={pizza}
-        alt="pizza"
-        width={400}
-        style={{borderRadius:10, paddingTop:25 }}
-      />
+      <p className="p-home">We are cash &amp; takeout only!</p>
+      <p className="p-contact">
+        Hours:
+      </p>
+      <p className="p-contact">
+        Thursday - Saturday: 2PM - until we run out
+      </p>
+      <p className="p-contact">
+        Sunday - Wednesday: Closed
+      </p>
     <div className="contact-container">
       <p className="p-contact">
       <span className="span-tel">

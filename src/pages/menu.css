@@ -26,3 +26,9 @@
 	border: none;
 	border-radius: 8px;
 }
+
+@media (max-width: 480px) {
+	.pdf-frame {
+		height: 450px;
+	}
+}

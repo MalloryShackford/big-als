@@ -1,5 +1,5 @@
 import React from "react";
-import miniLogo from '../assets/miniLogo.png'
+import miniLogo from '../assets/bigAlsLogo.png';
 import "./contact.css";
 const Contact = () => {
   return (
