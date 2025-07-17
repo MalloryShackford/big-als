@@ -13,7 +13,7 @@ const About = () => {
           className="img-about"
           alt="Tim Maslow and Mallory Shackford at Big Al's Pizza in North Billerica"
         />
-        <p className="p-about">At Big Al&apos;s Pizza, we&apos;re more than just a pizza shop—we&apos;re a family. Founded by Tim and Mallory Maslow, we set out to create a cozy neighborhood spot where great food and good company come together.</p>
+        <p className="p-about">At Big Al&apos;s Pizza, we&apos;re more than just a pizza shop—we&apos;re a family. Founded by husband and wife duo Tim and Mallory Maslow and family friend Mohammed Islam, we set out to create a cozy neighborhood spot where great food and good company come together.</p>
 
         <p className="p-about">Our passion for pizza goes beyond just the ingredients—it&apos;s about the experience. From our carefully crafted dough to our signature sauces, every pizza is made with love and a commitment to quality. We believe in bringing people together, whether it's for a quick bite, a family dinner, or a celebration with friends. 
         </p> 
