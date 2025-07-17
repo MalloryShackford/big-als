@@ -1,11 +1,20 @@
 .about-container {
+	max-width: 70%;
+	margin: 0 auto;
 	padding: 0 2.5rem 0 2.5rem;
 }
 .h1-about {
 	text-align: center;
 }
 
+.img-about {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 7%;
+}
 .p-about {
+	margin-top: 2rem;
 	font-family: "Roboto", sans-serif;
 	text-align: center;
 }

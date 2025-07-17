@@ -16,6 +16,13 @@ h1 {
 	width: 60%;
 	height: auto;
 }
+
+.pizza-boy {
+	display: block;
+	width: 25%;
+	margin: 0 auto;
+	border-radius: 7%;
+}
 .p-home {
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;

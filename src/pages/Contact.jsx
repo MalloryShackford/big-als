@@ -68,7 +68,7 @@ const Contact = () => {
       </p>
         <div className="mini-logo-container">
           <a href="/">
-            <img src={miniLogo} alt="miniLogo" width="100px"/>
+            <img src={miniLogo} alt="Big Al&apos;s Pizza in North Billerica, route 4, nashua rd" width="100px"/>
            </a>
       </div>
     </div>

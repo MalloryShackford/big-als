@@ -1,4 +1,6 @@
 .menu-container {
+	max-width: 80%;
+	margin: 0 auto;
 	padding: 0 2.5rem 0 2.5rem;
 }
 .h1-menu {
@@ -10,6 +12,18 @@
 	text-align: center;
 }
 
+.p-announcement {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+.img-pizza {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 7%;
+}
 .iframe-container {
 	position: relative;
 	width: 100%;
@@ -26,7 +40,12 @@
 	border: none;
 	border-radius: 8px;
 }
-
+@media (max-width: 480px) {
+	.img-pizza {
+		width: 70%;
+		height: 70%;
+	}
+}
 @media (max-width: 480px) {
 	.pdf-frame {
 		height: 450px;

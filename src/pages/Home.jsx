@@ -1,6 +1,7 @@
 import React from "react";
 import './home.css';
 import logo from '../assets/bigAlsLogo.png';
+import pizzaBoy from '../assets/pizzaBoy.png'
 
 const Home = () => {
   return (
@@ -8,9 +9,15 @@ const Home = () => {
       <img 
         className="img-logo" 
         src={logo} 
-        alt="Big Al's Pizza Logo"
+        alt="Chef Tim Maslow preparing NY style pizza at Big Al&apos;s Pizza"
         width={150}
-        height={150} />
+        height={150}
+      />
+      <img
+        className="pizza-boy"
+        src={pizzaBoy}
+        alt="Pizza Boy"
+      />
       <p className="p-home">We are cash &amp; takeout only!</p>
       <p className="p-contact">
         Hours:
