@@ -13,7 +13,7 @@ const Contact = () => {
           rel="noopener noreferrer">
           Visit</a> 
         or
-        <a href="tel:+9786676674" className="no-underline">call us</a>
+        <a href="tel:+19786676674" className="no-underline">call us</a>
         for a delicious pizza experience!
       </p>
       <p className="p-contact">
@@ -43,7 +43,7 @@ const Contact = () => {
     <div className="contact-container">
       <p className="p-contact"> 
       <span className="span-tel">
-        <a href="tel:+9786676674">
+        <a href="tel:+19786676674">
            978-667-6674    
         </a>
       </span>
