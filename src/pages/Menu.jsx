@@ -13,7 +13,8 @@ const Menu = () => {
                 width: '100%',
                 paddingTop: '129.4118%',
                 borderRadius: '7%',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                zIndex: 99,
               }}>
           <iframe 
             loading="lazy" 
