@@ -1,36 +1,36 @@
 import React from "react";
-// import menu from "../assets/websiteMenu.pdf";
 import miniLogo from "../assets/bigAlsLogo.png";
 import "./menu.css";
-import pizza from '../assets/bigAlsPizzaImg.jpeg';
 const Menu = () => {
-  // const pdfUrl = "https://drive.google.com/uc?export=download&id=11yDoI2gadJVNQqWCTXCSYSHcfDXU2Ac0";
-  // const googleDocsUrl = `https://docs.google.com/gview?url=${encodeURIComponent(
-  //   pdfUrl
-  // )}&embedded=true`;
 
   return (
     <div className="menu-container">
-      <h1 className="h1-menu">Our Menu</h1>
-      <p className="p-menu">Deliciously handcrafted and made with the freshest ingredients.</p>
-      <p className="p-announcement">
-        Coming Soon!
-      </p>
-      <img 
-        className="img-pizza"
-        src={pizza}
-        alt="NY Style Pepperoni Pizza at Big Al&apos;s Pizza in Billerica MA"
-        width={500}
-        height={550}
-      />
-      {/* <iframe className="pdf-frame" src={googleDocsUrl} title="menu" alt="menu" style={{ border: "none" }} width="100%" height="600px"></iframe>
-          <a 
-        href="https://www.canva.com/design/DAGhnvZJFUo/rBY6Ca3JBJsq-JFd77lZmw/view?utm_content=DAGhnvZJFUo&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-          </a> */}
-     <div className="contact-container">
+      <h1 className="h1-menu">Big Al&apos;s Menu</h1>
+      <h2 className="h2-menu">Deliciously handcrafted and made with the freshest ingredients</h2>
+         <div class="menu-embed"
+              style={{
+                position: 'relative',
+                width: '100%',
+                paddingTop: '129.4118%',
+                borderRadius: '7%',
+                overflow: 'hidden'
+              }}>
+          <iframe 
+            loading="lazy" 
+            src="https://www.canva.com/design/DAGthVvA9ic/7CSqkiqpSgPq40gFcilWWg/view?embed" 
+            title="Big Al's Pizza Menu"
+            allowfullscreen
+            style={{
+              position: 'absolute',
+              width: '100%',
+              height: '100%',
+              top: 0,
+              left: 0,
+              border: 'none'
+            }}
+          ></iframe>
+         </div>
+    <div className="contact-container">
       <p className="p-contact"> 
       <span className="span-tel">
         <a href="tel:+19786676674">
