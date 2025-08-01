@@ -1,7 +1,7 @@
 import React from "react";
 import miniLogo from '../assets/bigAlsLogo.png';
 import "./about.css";
-import about from '../assets/aboutPix.jpg';
+import about from '../assets/famPizzaPic.JPG';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         <img
           src={about}
           className="img-about"
-          alt="Tim Maslow and Mallory Shackford at Big Al's Pizza in North Billerica"
+          alt="Tim Maslow, Mallory Shackford, Mohammed Islam and pizza"
         />
         <p className="p-about">At Big Al&apos;s Pizza, we&apos;re more than just a pizza shop—we&apos;re a family. Founded by husband and wife duo Tim and Mallory Maslow and family friend Mohammed Islam, we set out to create a cozy neighborhood spot where great food and good company come together.</p>
 
