@@ -1,14 +1,16 @@
 import React from "react";
 import miniLogo from "../assets/bigAlsLogo.png";
 import "./menu.css";
+import { Helmet } from "react-helmet";
 const Menu = () => {
 
   return (
     <div className="menu-container">
+       <Helmet>
+        <title>About Us</title>
+        <link rel="canonical" href="https://bigalsbillerica.com/menu" />
+      </Helmet>
       <h1 className="h1-menu">Big Al&apos;s Pizza</h1>
-      {/* <h3 className="h3">We’ve seen how tough times can be on families and communities. That’s why we're trying something new: Pay What You Will. There’s no set price—just great pizza and trust. If you can give more, awesome. If you need a break, we’ve got you.</h3>
-      <h3 className="h3">You decide what to pay for your pizza. Most folks pay around what they’d expect at a regular pizza shop, but truly—it’s up to you. If you’re having a tough week, pay less. If you’re able to chip in a little extra, it helps us keep the lights on and the ovens hot for everyone.</h3>
-      <h4 className="h4">One quick thing: We still have to cover sales tax on every order, so whatever you choose to pay includes that. Thanks for helping us keep this going!</h4> */}
          <div class="menu-embed"
               style={{
                 position: 'relative',

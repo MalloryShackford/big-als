@@ -2,10 +2,15 @@ import React from "react";
 import miniLogo from '../assets/bigAlsLogo.png';
 import "./about.css";
 import about from '../assets/famPizzaPic.JPG';
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <title>About Us</title>
+        <link rel="canonical" href="https://bigalsbillerica.com/about" />
+      </Helmet>
       <h1 className="h1-about">About Us</h1>
       <div className="about-container">
         <img

@@ -1,9 +1,14 @@
 import React from "react";
 import miniLogo from '../assets/bigAlsLogo.png';
 import "./contact.css";
+import { Helmet } from "react-helmet";
 const Contact = () => {
   return (
     <div className="contact-container">
+      <Helmet>
+        <title>About Us</title>
+        <link rel="canonical" href="https://bigalsbillerica.com/contact" />
+      </Helmet>
       <h1 className="h1-contact">Hours & Info</h1>
       <p className="p-contact">
         <a

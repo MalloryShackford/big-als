@@ -2,10 +2,15 @@ import React from "react";
 import './home.css';
 import logo from '../assets/bigAlsLogo.png';
 import pizzaBoy from '../assets/pizzaBoy.png'
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div className="home-container">
+      <Helmet>
+        <title>About Us</title>
+        <link rel="canonical" href="https://bigalsbillerica.com" />
+      </Helmet>
       <img 
         className="img-logo" 
         src={logo} 
