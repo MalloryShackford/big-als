@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
        <Helmet>
-        <title>About Us</title>
+        <title>Menu | Big Al's Pizza</title>
         <link rel="canonical" href="https://bigalsbillerica.com/menu" />
       </Helmet>
       <h1 className="h1-menu">Menu</h1>

@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About Us</title>
+        <title>About | Big Al's Pizza</title>
         <link rel="canonical" href="https://bigalsbillerica.com/about" />
       </Helmet>
       <h1 className="h1-about">About Us</h1>

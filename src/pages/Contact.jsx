@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>About Us</title>
+        <title>Contact | Big Al's Pizza</title>
         <link rel="canonical" href="https://bigalsbillerica.com/contact" />
       </Helmet>
       <h1 className="h1-contact">Hours & Info</h1>
@@ -28,7 +28,7 @@ const Contact = () => {
         Hours:
       </p>
       <p className="p-contact">
-        Thursday - Saturday: 2PM - until we run out
+        Thursday - Saturday: 2PM - 8PM or 'til we run out
       </p>
       <p className="p-contact">
         Sunday - Wednesday: Closed
