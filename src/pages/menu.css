@@ -21,7 +21,7 @@
 .menu-embed {
 	position: relative;
 	width: 100%;
-	padding-top: 129.4118%; /* Maintains Canva's aspect ratio */
+	padding-top: 129.4118%;
 	box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
 	border-radius: 8px;
 	overflow: hidden;
@@ -48,6 +48,13 @@
 	height: 100%;
 	border: none;
 	border-radius: 8px;
+}
+
+.pdf-menu,
+.menu {
+	text-align: center;
+	padding: 1rem;
+	font-family: "Roboto", sans-serif;
 }
 @media (max-width: 480px) {
 	.img-pizza {

@@ -2,6 +2,7 @@ import React from "react";
 import miniLogo from "../assets/bigAlsLogo.png";
 import "./menu.css";
 import { Helmet } from "react-helmet";
+
 const Menu = () => {
 
   return (
@@ -10,8 +11,8 @@ const Menu = () => {
         <title>About Us</title>
         <link rel="canonical" href="https://bigalsbillerica.com/menu" />
       </Helmet>
-      <h1 className="h1-menu">Big Al&apos;s Pizza</h1>
-         <div class="menu-embed"
+      <h1 className="h1-menu">Menu</h1>
+        <div class="menu-embed"
               style={{
                 position: 'relative',
                 width: '100%',
@@ -20,9 +21,10 @@ const Menu = () => {
                 overflow: 'hidden',
                 zIndex: 99,
               }}>
-          <iframe 
+         <iframe 
             loading="lazy" 
             src="https://www.canva.com/design/DAGthVvA9ic/7CSqkiqpSgPq40gFcilWWg/view?embed" 
+            // src="/BigAlsMenu.pdf"
             title="Big Al's Pizza Menu"
             allowfullscreen
             style={{
@@ -34,6 +36,15 @@ const Menu = () => {
               border: 'none'
             }}
           ></iframe>
+         </div>
+         <div className="pdf-menu">
+          <a 
+           href="/BigAlsMenu.pdf"
+           target="blank"
+           rel="noopener noreferrer"
+           style={{textDecoration: 'none', color: 'black', fontWeight: '700', fontFamily: 'roboto'}}> 
+          View Full Menu 
+          </a>
          </div>
     <div className="contact-container">
       <p className="p-contact"> 
