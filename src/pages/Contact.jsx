@@ -11,6 +11,8 @@ const Contact = () => {
       </Helmet>
       <h1 className="h1-contact">Hours & Info</h1>
       <p className="p-contact">
+        <p className="p-closing">We will be CLOSED to enjoy the holiday with our family</p>
+        <p className="p-closing">Thursday 8/28 - Saturday 8/30.</p>
         <a
           href="https://maps.app.goo.gl/L2viXbQs36WmTDqL6"
           className="no-underline"

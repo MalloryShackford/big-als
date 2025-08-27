@@ -27,9 +27,11 @@ const Home = () => {
       <p className="p-contact">
         Hours:
       </p>
-      <p className="p-contact">
+      <p className="p-closing">We will be CLOSED to enjoy the holiday with our family</p>
+      <p className="p-closing">Thursday 8/28 - Saturday 8/30.</p>
+      {/* <p className="p-contact">
         Thursday - Saturday: 2PM - 8PM or 'til we run out
-      </p>
+      </p> */}
       <p className="p-contact">
         Sunday - Wednesday: Closed
       </p>

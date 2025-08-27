@@ -12,7 +12,10 @@
 	font-family: "Roboto", sans-serif;
 	text-align: center;
 }
-
+.p-closing {
+	color: red;
+	font-weight: bold;
+}
 .no-underline {
 	text-decoration: none;
 	color: black;
