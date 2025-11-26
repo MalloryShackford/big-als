@@ -9,6 +9,10 @@ const About = () => {
     <div>
       <Helmet>
         <title>About | Big Al's Pizza</title>
+        <meta
+          name="description"
+          content="Learn the story behind Big Al’s Pizza in Billerica, MA. Family-owned, scratch-made pies crafted by Chef Tim Maslow."
+        />
         <link rel="canonical" href="https://bigalsbillerica.com/about" />
       </Helmet>
       <h1 className="h1-about">About Us</h1>
@@ -16,7 +20,7 @@ const About = () => {
         <img
           src={about}
           className="img-about"
-          alt="Tim Maslow, Mallory Shackford, Mohammed Islam and pizza"
+          alt="Tim Maslow, Mallory Shackford, Mohammed Islam, and pizza"
         />
         <p className="p-about">At Big Al&apos;s Pizza, we&apos;re more than just a pizza shop—we&apos;re a family. Founded by husband and wife duo Tim and Mallory Maslow and family friend Mohammed Islam, we set out to create a cozy neighborhood spot where great food and good company come together.</p>
 

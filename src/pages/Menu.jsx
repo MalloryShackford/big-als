@@ -9,6 +9,10 @@ const Menu = () => {
     <div className="menu-container">
        <Helmet>
         <title>Menu | Big Al's Pizza</title>
+          <meta
+          name="description"
+          content="Explore the Big Al’s Pizza menu in Billerica, MA. Featuring 16” pies by Chef Tim Maslow."
+        />
         <link rel="canonical" href="https://bigalsbillerica.com/menu" />
       </Helmet>
       <h1 className="h1-menu">Menu</h1>

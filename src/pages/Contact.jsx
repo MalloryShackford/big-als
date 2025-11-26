@@ -7,6 +7,10 @@ const Contact = () => {
     <div className="contact-container">
       <Helmet>
         <title>Contact | Big Al's Pizza</title>
+         <meta
+            name="description"
+            content="Contact Big Al’s Pizza. Find hours, location, and info for our takeout-only Billerica shop."
+         />
         <link rel="canonical" href="https://bigalsbillerica.com/contact" />
       </Helmet>
       <h1 className="h1-contact">Hours & Info</h1>
