@@ -35,10 +35,6 @@ const Home = () => {
       <p className="p-contact">
         Sunday - Monday: Closed
       </p>
-      <span className="holidays">We will be closed for the holidays </span>
-      <span className="holidays">Tuesday, December 23rd - Saturday, January 3rd </span>
-      <span className="holidays">Wishing everyone a safe holiday and Happy New Year!</span>
-      <span className="holidays">Looking forward to coming back Tuesday, January 6th!</span>
       <div className="contact-container">
       <p className="p-contact">
       <span className="span-tel">
