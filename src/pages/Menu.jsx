@@ -16,7 +16,40 @@ const Menu = () => {
         <link rel="canonical" href="https://bigalsbillerica.com/menu" />
       </Helmet>
       <h1 className="h1-menu">Menu</h1>
-        <div class="menu-embed"
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: 0,
+            paddingTop: "163.6364%",
+            paddingBottom: 0,
+            boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+            marginTop: "1.6em",
+            marginBottom: "0.9em",
+            overflow: "hidden",
+            borderRadius: "7%",
+            willChange: "transform",
+          }}
+        >
+        <iframe
+          loading="lazy"
+          title="Big Al's Pizza Menu"
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            top: 0,
+            left: 0,
+            border: "none",
+            padding: 0,
+            margin: 0,
+          }}
+          src="https://www.canva.com/design/DAG-g5tUbNU/yFcowDmrvjvH4KC9iYb_MQ/view?embed"
+          allowFullScreen
+        />
+      </div>
+{/*       
+      <div class="menu-embed"
               style={{
                 position: 'relative',
                 width: '100%',
@@ -40,7 +73,7 @@ const Menu = () => {
               border: 'none'
             }}
           ></iframe>
-         </div>
+         </div> */}
          <div className="pdf-menu">
           <a 
            href="/BigAlsMenu.pdf"
