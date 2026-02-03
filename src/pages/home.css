@@ -32,3 +32,15 @@ h1 {
 .holidays {
 	font-weight: bold;
 }
+.p-openSuperbowl {
+	font-weight: bold;
+	font-size: 2rem;
+}
+.p-click {
+	font-weight: bold;
+}
+
+.p-preorder {
+	font-weight: bold;
+	font-size: 1.2rem;
+}

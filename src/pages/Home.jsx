@@ -32,8 +32,19 @@ const Home = () => {
       <p className="p-contact">
         Tuesday - Saturday: 12PM - 8PM or 'til we run out
       </p>
+      <p className="p-openSuperbowl">OPEN SUPER BOWL SUNDAY</p>
+      <p className="p-preorder">PICKUP 12-5PM</p>
+       <a 
+           href="/bigAlsSB.pdf"
+           target="blank"
+           rel="noopener noreferrer"
+           style={{textDecoration: 'none', color: 'black', fontSize: '1.5rem', fontWeight: '900', fontFamily: 'roboto'}}> 
+          Click for Super Bowl Menu
+      </a>
+      <p className="p-preorder">GET YOUR PRE-ORDERS IN NOW!</p>
       <p className="p-contact">
-        Sunday - Monday: Closed
+        Monday: Closed
+    
       </p>
       <div className="contact-container">
       <p className="p-contact">
