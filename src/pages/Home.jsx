@@ -1,7 +1,8 @@
 import React from "react";
 import './home.css';
-import logo from '../assets/bigAlsLogo.png';
+// import logo from '../assets/bigAlsLogo.png';
 import pizzaBoy from '../assets/pizzaBoy.png'
+import bigAlsSign from '../assets/bigAlsSign.png';
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
       </Helmet>
       <img 
         className="img-logo" 
-        src={logo} 
+        src={bigAlsSign} 
         alt="Chef Tim Maslow preparing NY style pizza at Big Al&apos;s Pizza"
         width={150}
         height={150}
@@ -32,18 +33,8 @@ const Home = () => {
       <p className="p-contact">
         Tuesday - Saturday: 12PM - 8PM or 'til we run out
       </p>
-      <p className="p-openSuperbowl">OPEN SUPER BOWL SUNDAY</p>
-      <p className="p-preorder">PICKUP 12-5PM</p>
-       <a 
-           href="/bigAlsSB.pdf"
-           target="blank"
-           rel="noopener noreferrer"
-           style={{textDecoration: 'none', color: 'black', fontSize: '1.5rem', fontWeight: '900', fontFamily: 'roboto'}}> 
-          Click for Super Bowl Menu
-      </a>
-      <p className="p-preorder">GET YOUR PRE-ORDERS IN NOW!</p>
       <p className="p-contact">
-        Monday: Closed
+        Sunday & Monday: Closed
     
       </p>
       <div className="contact-container">

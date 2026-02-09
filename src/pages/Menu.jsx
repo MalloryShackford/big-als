@@ -1,5 +1,5 @@
 import React from "react";
-import miniLogo from "../assets/bigAlsLogo.png";
+import bigAlsSign from "../assets/bigAlsSign.png";
 import "./menu.css";
 import { Helmet } from "react-helmet";
 
@@ -94,7 +94,7 @@ const Menu = () => {
     </div>
     <div className="mini-logo-container">
      <a href="/">
-      <img src={miniLogo} alt="Big Al&apos;s Pizza featured for NY style slices in Billerica MA" width="100px"/>
+      <img src={bigAlsSign} alt="Big Al&apos;s Pizza featured for NY style slices in Billerica MA" width="100px"/>
      </a>
     </div>
   </div>

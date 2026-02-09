@@ -1,5 +1,5 @@
 import React from "react";
-import miniLogo from '../assets/bigAlsLogo.png';
+import bigAlsSign from '../assets/bigAlsSign.png';
 import "./about.css";
 import about from '../assets/famPizzaPic.JPG';
 import { Helmet } from "react-helmet";
@@ -32,7 +32,7 @@ const About = () => {
       </div>
      <div className="mini-logo-container">
       <a href="/">
-        <img src={miniLogo} alt="Fresh NY style cheese pizza at Big Al&apos;s Pizza in Billerica" width="100px"/>
+        <img src={bigAlsSign} alt="Fresh NY style cheese pizza at Big Al&apos;s Pizza in Billerica" width="100px"/>
       </a>
      </div>
     </div>
